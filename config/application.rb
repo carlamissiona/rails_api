@@ -22,5 +22,8 @@ module RailsRuby3
     config.action_dispatch.default_headers = {
       'X-Frame-Options' => 'ALLOWFROM replit.com'
     }
+
+    config.serve_static_assets = true
+    config.public_file_server.enabled = true
   end
 end
