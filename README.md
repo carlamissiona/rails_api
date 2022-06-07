@@ -2,7 +2,7 @@
 # Some Ruby I've learned 
 
  
-class ApiController < ApplicationController
+`class ApiController < ApplicationController
   def login
   end
 
@@ -40,4 +40,4 @@ WHERE id =?", params[:id] ])
     
       
   end
-end
+end`
